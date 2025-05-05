@@ -24,3 +24,24 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Django
+db.sqlite3
+*.log
+staticfiles/
+
+# Docker/CI
+Jenkinsfile
+Procfile
+
+# VS Code / IDE
+.vscode/
+*.swp
+*.swo
+
